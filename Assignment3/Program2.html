@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script >
+
+let age
+
+do {
+	try {
+		age =prompt('enter your age')
+		if (age<21){throw RangeError('Be patient')}
+		else {
+			alert(`Congratulation!!! you are ${age} and elligble for marriage`)
+		}
+	} catch (error) {
+		alert(error.message)
+	}
+	
+} while (age<21);
+
+
+</script>
+</body>
+</html>
+

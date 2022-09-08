@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script >
+let number1
+let number2
+
+do {
+	number1 = prompt('enter the number1')
+	condition = isNaN(number1)
+	if(condition){
+			alert("Enter only number!");
+	}
+} while (condition);
+
+do {
+	number2 = prompt('enter the number2')
+	condition = isNaN(number2)
+	if(condition){
+			alert("Enter only number!");
+	}
+} while (condition);
+
+let sum = parseInt(number1)+parseInt(number2)
+document.write(`The Sum of Numbers ${number1} and ${number2} is ${sum}`)
+
+</script>
+</body>
+</html>
+
